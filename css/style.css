@@ -1,0 +1,330 @@
+/*
+COLORS:
+PRIMARY COLOR : #e8807f
+SECONDARY COLOR: #c2185b
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 1.7;
+    background: linear-gradient(to bottom right, #c2185b,  #009688  ) fixed;
+    height: 80vh;   
+
+}
+
+/* Header */
+header{
+    margin: 0px;
+    padding: 7px;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    background-color: #e6c84f;
+    background-image: linear-gradient(315deg, #e6c84f 0%, #e8807f 74%);
+    box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.897);
+}
+
+.header-logo{
+    position: relative;
+    max-width: 100%;
+    max-height: 80%;
+}
+
+footer{
+    /* position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: block; */
+    display: flex;
+    flex-direction: column;
+    font-size: 80%;
+    background-color: black;
+    color : white;
+    text-align: center;
+    padding: 20px;
+  
+}
+
+.footer--hyperlink{
+
+    text-emphasis: none;
+    text-decoration: none;
+
+}
+
+.footer--hyperlink {
+    color: white;
+  }
+
+.footer--hyperlink:hover, .footer--hyperlink:active, .footer--hyperlink:focus {
+    color:#e8807f;
+  
+}
+
+
+/*-------------------*/
+
+/* Nav bar */
+
+nav{
+    background-color: black;
+    color: white;
+    display: block;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a{
+    margin: 0px 10px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav li a:link, 
+nav li a:visited{
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+nav li a:hover,
+nav li a:active{
+    border-bottom: 2px solid#e8807f;
+}
+
+/*-------------------*/
+
+/* Welcome Part */
+
+.welcome{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5px;
+    width: 100%;
+    height: 100%;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+
+}
+
+h1::after{
+
+    display: block;
+    content: "";
+    margin: 0px 5px; 
+    width: 100px;
+    margin: 0 auto;
+    height: 3px;
+    background-color: #000000a9;
+    margin-bottom: 30px;
+
+
+}
+
+/* Welcome Text */
+.welcome-text{
+
+    font-size: 200%;
+    margin: 10px 0px 0px 0px;
+
+}
+
+
+
+.welcome-floor-plan{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 450px;
+    height: 450px;
+
+}
+
+/*-------------------*/
+
+.container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    margin: 20px auto;
+    width: 50%;
+    height: 30%;
+    background-color: white;
+    /* border: 2px solid black; */
+    box-shadow: 2px 4px 12px 0 rgba(0, 0, 0, 0.274);
+    border-radius: 5px;
+
+}
+
+.grow{
+    
+    height: 300px;
+    margin-bottom: 200px;
+
+}
+
+.container-image{
+
+    width: 40%;
+    padding: 10px;
+
+}
+.container-content{
+
+    padding: 10px;
+
+}
+
+.container-content__name{
+
+    font-size: 150%;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+.container--copyright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container--copyright p{
+    text-align: center;
+}
+
+hr{
+    display: block;
+    border-style: solid;
+    margin-bottom: 2px;
+    background-color: black
+}
+
+.container--workinghours__content{
+
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: initial;
+
+}
+
+.container--workinghours__desc{
+
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+    align-content: center; 
+
+}
+
+.closed{
+
+    border-radius: 20px;
+    padding: 2px 10px;
+    text-transform: uppercase;
+    background-color:#d32f2f;
+    color: white;
+    font-size: 90%;
+
+}
+
+area{
+    outline: none;
+}
+
+.container--contactUs{
+
+    
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    width: 350px;
+    height: auto; 
+    background-color: white;
+    /* border: 2px solid black; */
+    box-shadow: 2px 4px 12px 0 rgba(0, 0, 0, 0.274);
+    border-radius: 5px;
+
+}
+
+.container--contactUs__form{
+
+    padding: 20px;
+
+}
+
+.container--contactUs__form p{
+
+   margin: 0;
+   font-weight: 600;
+
+}
+
+
+input[type = "text"], input[type = "number"], input[type = "textarea"], select{
+
+    width: 300px;
+    height: 40px;
+    padding : 5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    outline: none;
+    margin-bottom: 10px;
+
+
+}
+
+select{
+    padding: 2px;
+}
+
+.submit--btn{
+
+    display: flex;
+    margin: 10px auto;
+    text-transform: uppercase;
+    display: block;
+    color: white;
+    font-size: 90%;
+    letter-spacing: 1px;
+    padding: 10px 15px;
+    border-radius: 80px;
+    border: 2px solid #009688;
+    box-shadow: none;
+    background-color:  #009688;
+
+
+}
+

@@ -1,0 +1,38 @@
+Antiques
+--------
+an1 - Chopstick Stand
+an2 - Exercise Balls
+an3 - Bullock Cart
+an4 - Abacus
+an5 - Painted Shell	
+an6 - Jewellery Case	
+an7 - Snuff Box
+
+Stamps
+------
+st1 - Singapore
+st2 - Australia
+st3 - Malaysia
+st4 - Hong Kong
+st5 - Indonesia	
+st6 - Thailand
+st7 - Tonga
+
+COINS
+-----
+cn1 - India
+cn2 - Nepal
+cn3 - New Zealand
+cn4 - Pakistan
+cn5 - South Korea	
+cn6 - USA
+
+Origami
+-------
+or1 - Paper Owl
+or2 - Horse Sculpture
+or3 - Fruit Papier Mache
+or4 - Flying Hearts
+or5 - Fireworks
+or6 - Pinky Rhino
+or7 - Rainbow Brolly
